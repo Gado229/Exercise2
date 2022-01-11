@@ -1,0 +1,77 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  padding: 90px 0px 90px 0px;
+}
+/* ​ */
+header {
+  height: 50px;
+  background-color: #2B2B2B;
+  padding: 1em;
+}
+header ul {
+    list-style-type: none; /* ON RETIRE L'IMAGE DE PUCE */
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+header ul a {
+  color: white;
+}
+header li {
+}
+header li.left {
+    display: inline-block;
+    padding: 10px;
+
+}
+header li.right {
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+header ul:after {
+}
+/* Implémentation de la partie d'en-tête */
+.main-header img {
+/* Implémentation de l'image principale (image des caractères blancs "Achieve") */
+background-image: url(images/achieve.png);
+width: 13%;
+}
+.about {
+/* About Implémentation de la partie Achieve */
+font-size: 0.8rem;
+}
+/* ​ */
+.function {
+  background-color: #D3D3D3;
+}
+.function-images {
+    display: flex;   /* Transformation en flexbox */
+    justify-content: center;
+    padding-bottom: 124px;
+}
+.function-image {
+  float: none;
+  padding: 20px 20px 20px 20px;
+}
+/* Implémentation de la partie Function */
+footer {
+/* Implémentation du pied de page */
+height: 70px;
+background-color: #283A4B;
+width: 100%;
+bottom: 0;
+display: table;
+position: absolute;
+font-size: 0.8rem;
+text-align: center;
+}
