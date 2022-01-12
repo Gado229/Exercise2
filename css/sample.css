@@ -48,7 +48,10 @@ width: 13%;
 }
 .about {
 /* About Implémentation de la partie Achieve */
-font-size: 0.8rem;
+    font-size: 0.8rem;
+}
+.about h1 {
+    font-size: 1.5rem;
 }
 /* ​ */
 .function {
